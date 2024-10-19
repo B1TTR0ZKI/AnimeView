@@ -36,6 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
   ];
 
   int _currentScreenIndex = 0;
+  int get currentScreenIndex => _currentScreenIndex;
 
   @override
   void initState() {
