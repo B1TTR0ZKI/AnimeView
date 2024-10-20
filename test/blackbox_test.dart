@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:anime_world_tutorial/screens/animes_screen.dart';
 import 'package:anime_world_tutorial/screens/categories_screen.dart';
 import 'package:anime_world_tutorial/screens/home_screen.dart';
@@ -39,6 +41,38 @@ void main() {
       await tester.pumpAndSettle();
 
       expect(find.byType(CategoriesScreen), findsOneWidget);
+    });
+  });
+
+  group('Anime Screen Tests', () {
+    testWidgets(
+        'AnimesScreen displays FeaturedAnimes widgets with correct labels',
+        (WidgetTester tester) async {
+      await tester.pumpWidget(
+        const MaterialApp(
+          home: AnimesScreen(),
+        ),
+      );
+
+      expect(find.text('Top Ranked'), findsOneWidget);
+      expect(find.text('Top Popular'), findsOneWidget);
+      expect(find.text('Top Movie Animes'), findsOneWidget);
+      expect(find.text('Top Upcoming Animes'), findsOneWidget);
+
+      const currentSeason = 'spring';
+      expect(find.text('Top Animes this $currentSeason'), findsOneWidget);
+    });
+
+    testWidgets('AnimesScreen loads correctly', (WidgetTester tester) async {
+      await tester.pumpWidget(
+        const MaterialApp(
+          home: AnimesScreen(),
+        ),
+      );
+
+      expect(find.text('Anime World'), findsOneWidget);
+
+      expect(find.byIcon(Icons.search), findsOneWidget);
     });
   });
 }
