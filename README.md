@@ -18,13 +18,13 @@ The **AnimeView Flutter App** is a mobile application built using Flutter, which
 Here are some screenshots showcasing the app's main features:
 
 ### Home Screen
-![Home Screen](images/home_screen.png)
+![Home Screen](home_screen.png)
 
 ### Search Screen
-![Search Screen](images/search_screen.png)
+![Search Screen](search_screen.png)
 
 ### Anime Details
-![Anime Details](images/anime_details.png)
+![Anime Details](anime_details.png)
 
 
 
