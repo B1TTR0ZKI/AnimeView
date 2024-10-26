@@ -17,16 +17,18 @@ The **AnimeView Flutter App** is a mobile application built using Flutter, which
 
 Here are some screenshots showcasing the app's main features:
 
-### Home Screen
-![Home Screen](home_screen.png)
-
-### Search Screen
-![Search Screen](search_screen.png)
-
-### Anime Details
-![Anime Details](anime_details.png)
-
-
+<table>
+  <tr>
+    <td><strong>Home Screen</strong></td>
+    <td><strong>Search Screen</strong></td>
+    <td><strong>Anime Details</strong></td>
+  </tr>
+  <tr>
+    <td><img src="home_screen.png" alt="Home Screen" width="250"/></td>
+    <td><img src="search_screen.png" alt="Search Screen" width="250"/></td>
+    <td><img src="anime_details.png" alt="Anime Details" width="250"/></td>
+  </tr>
+</table>
 
 
 ---
@@ -38,9 +40,4 @@ Here are some screenshots showcasing the app's main features:
 - **Dart SDK**: This comes pre-installed with Flutter.
 - **MyAnimeList API Key**: You will need to get an API key from [MyAnimeList API](https://myanimelist.net/apiconfig).
 
-### Steps to Run the App
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/B1TTR0ZKI/AnimeView.git
-   cd AnimeView
