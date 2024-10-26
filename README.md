@@ -13,6 +13,24 @@ The **AnimeView Flutter App** is a mobile application built using Flutter, which
 
 ---
 
+## Screenshots
+
+Here are some screenshots showcasing the app's main features:
+
+### Home Screen
+![Home Screen](images/home_screen.png)
+
+### Search Screen
+![Search Screen](images/search_screen.png)
+
+### Anime Details
+![Anime Details](images/anime_details.png)
+
+
+
+
+---
+
 ## Installation
 
 ### Prerequisites
@@ -25,4 +43,4 @@ The **AnimeView Flutter App** is a mobile application built using Flutter, which
 1. Clone this repository:
    ```bash
    git clone https://github.com/B1TTR0ZKI/AnimeView.git
-   cd anime_flutter_app
+   cd AnimeView
